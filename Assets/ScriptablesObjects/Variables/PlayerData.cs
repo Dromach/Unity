@@ -1,12 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New PlayerData", menuName = "ScriptablesObjects/Variables/PlayerData")]
-
+[CreateAssetMenu(fileName = "New PlayerData", menuName = "ScriptableObjects/Values/PlayerData")]
 public class PlayerData : ScriptableObject
 {
-    public int maxLifePoints = 3;
-
+    public int maxLifePoints;
     public int currentLifePoints;
 }
